@@ -1,0 +1,112 @@
+html {
+  scroll-behavior: smooth;
+}
+
+h1 {
+  color: #615088;
+  text-align: center;
+}
+
+header {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #444;
+}
+
+body {
+  background-color: #ccc0cb;
+  font-family: "Microsoft JhengHei", sans-serif;
+  font-size: 17px;
+  color: var(--text-dark);
+  margin: 0;
+  line-height: 1.6;
+}
+
+.container {
+  width: 85%;
+  margin: 0 auto;
+  padding: 10px;
+  background-color: white;
+  border-radius: 40px;
+  font-weight: bold;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav ul li a {
+  color: #8e44ad;
+  text-decoration: none;
+  padding: 15px 25px;
+  display: block;
+  transition: 0.5s;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  background: #e9cae2;
+}
+
+hr {
+  border: 0;
+  height: 2px;
+  background-image: linear-gradient(
+    to right,
+    transparent,
+    #5b8ee6,
+    transparent,
+    #a63128,
+    transparent
+  );
+  margin: 40px 0;
+}
+
+section {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.contact-list {
+  list-style: none;
+  padding: 0;
+}
+
+.contact-list li {
+  margin: 10px 0;
+}
+.contact-list a {
+  color: #8e44ad;
+  text-decoration: none;
+}
+table {
+  margin: 30px auto;
+  border-collapse: collapse;
+  width: 80%;
+  overflow: hidden;
+}
+th,
+td {
+  padding: 10px;
+  border: 1px solid #000000;
+}
+
+th {
+  background-color: #f4dff5;
+}
+
+.material-symbols-outlined {
+  margin-right: 8px;
+}
+
+img {
+  border-radius: 15px;
+  width: 800px;
+}
+
+.video-grid iframe {
+  border-radius: 10px;
+}
